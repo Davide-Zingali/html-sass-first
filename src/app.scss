@@ -1,5 +1,20 @@
+// importazioni
+@import '_variables';
+@import '_common';
+@import "_nav";
+@import "_header";
+@import "main";
+@import "footer";
+
+// proprietá generali
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+// proprietá selettive
+h1{
+    @include centratura;
+    height: 100%;
 }

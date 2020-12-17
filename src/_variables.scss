@@ -1,0 +1,12 @@
+@mixin centratura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+// variabili di colori
+$verde: green;
+$rosso: red;
+$grigio: gray;
+$blu: blue;
