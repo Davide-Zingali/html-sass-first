@@ -1,0 +1,16 @@
+main {
+    padding-top: 30px;
+    background-color: $verde;
+    section {
+        display: flex;
+        justify-content: space-between;
+        div {
+            background-color: rebeccapurple;
+            border: $bordo;
+            margin: 30px 40px;
+            width: 50%;
+            height: 300px;
+            line-height: 300px;
+        }
+    }
+}

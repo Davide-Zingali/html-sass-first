@@ -1,0 +1,22 @@
+// mix di variabili
+@mixin hoover-black {
+    background-color: black;
+    color: gray;
+    font-size: $max-hoover;
+}
+@mixin hoover-orange {
+    font-size: $max-hoover;
+    color: yellow;
+    background-color: orange;
+}
+
+// variabili di colori
+$verde: green;
+$rosso: red;
+$grigio: gray;
+$blu: blue;
+$bianco: white;
+$max-hoover: 30px;
+
+// variabile bordo
+$bordo: 3px solid orange;

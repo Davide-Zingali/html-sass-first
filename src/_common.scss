@@ -1,7 +1,0 @@
-@each $item in nav, header, main, footer {
-    #{$item} {
-        width: 900px;
-        height: 200px;
-        margin: 0 auto;
-    }
-}

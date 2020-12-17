@@ -1,0 +1,16 @@
+@each $item in header, main {
+    #{$item} {
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+    }
+}
+@each $i in nav, footer {
+    #{$i} {
+        padding: 30px 0;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        color: $bianco;
+    }
+}

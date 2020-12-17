@@ -1,0 +1,6 @@
+footer {
+    background-color: $grigio;
+    &:hover {
+        @include hoover-black;
+    }
+}
