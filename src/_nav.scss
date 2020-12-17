@@ -1,5 +1,10 @@
 nav {
     h1 {
         background-color: $rosso;
+        &:hover {
+            font-size: $max-hoover;
+            color: yellow;
+            background-color: orange;
+        }
     }
 }

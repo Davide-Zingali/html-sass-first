@@ -1,5 +1,10 @@
 footer {
     h1 {
         background-color: $grigio;
+        &:hover {
+            background-color: black;
+            color: gray;
+            font-size: $max-hoover;
+        }
     }
 }
