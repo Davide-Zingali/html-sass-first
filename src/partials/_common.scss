@@ -1,7 +1,7 @@
 @each $item in header, main {
     #{$item} {
         text-align: center;
-        color: white;
+        color: $bianco;
         margin: 0 auto;
     }
 }
